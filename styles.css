@@ -1,0 +1,189 @@
+/* var bluePurple = #
+var blue = #
+var blueGreen = #  */
+/* Dancing+Script|
+Indie+Flower|Shadows+Into+Light|Permanent+Marker|Amatic+SC|
+Caveat|Kalam|Satisf */
+body {
+  background-color: blue;
+  color: orange;
+  font-size: 1.5rem;
+  font-family: 'Shadows Into Light', cursive, sans-serif;
+  letter-spacing: 3px;
+  padding: 20px 15px;
+  margin: -40px 20px;
+}
+/* TEXT:   "CALCULATIONS USING ARC LENGTH AND CENTRAL ANGLES" */
+h2 {
+  font-size: 2rem;
+  color: orange;
+  text-align: center;
+  padding: 5px;
+  /* margin-top: 5px; */
+  text-shadow: 1px 1px 1px black;
+}
+/* PICTURE:    CIRCLE PICTURE #1 */
+#arcPicture {
+  width: 30%; 
+  height: auto;
+  margin-bottom: 15px auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 34%;
+  margin-right: 34%;
+  display: inline-block;
+  padding: 10px;;
+  border: 2px white solid;
+  outline: 3px black solid;
+  box-shadow: 0px 0px 80px darkorange;
+
+}
+/* INTRODUCTION:  TEXT:  FIRST EXPLANATION */
+#introexplanation {
+  border: 1px white solid;
+  outline: 2px black solid;
+  padding: 15px;
+  text-shadow: 2px 2px 2px black;
+}
+li {
+  border: 1px white solid;
+  outline: 2px black solid;
+  padding: 15px;
+  text-shadow: 2px 2px 2px black;
+  width: 30%;
+  height: auto;
+  text-align: left;
+  margin-left: 34%;
+  margin-right: 34%;
+  
+
+}
+/* INPUT TEXT-BOX:   ENTER THE RADIUS */
+#myRadius {
+  width: 4rem;
+  height: 2.47rem;
+  background-color: black;
+  border: 1px bisque solid;
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: orange;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* BUTTON:    SUBMIT THE RADIUS */
+#radiusSubmitButton {
+  width: 7rem;
+  height: 4.32rem;
+  background-color: black;
+  border: 1px bisque solid;
+  font-size: 1.2rem;
+  color: orange;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  font-family: 'Kalam';
+}
+#radiusSubmitButton:hover {
+  width: 7rem;
+  height: 4.32rem;
+  background-color: orange;
+  border: 2px black solid;
+  outline: 1px bisque solid;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  font-family: 'Kalam';
+}
+/* TEXT-BOX:    RETURN OF RADIUS ANSWER */
+#demo {
+  font-size: 2rem;
+  color: black;
+  width: 7.5rem;
+  height: 3.7rem;
+  background-color: bisque;
+  border: 1px black solid;
+  outline: 0.5px orange solid;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+
+/* INPUT TEXT-BOX:   ENTER THE CENTRAL ANGLE'S DEGREES */
+#myCentralAngle, #myDiameterTwo {
+  width: 4rem;
+  height: 2.47rem;
+  background-color: black;
+  border: 1px bisque solid;
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: orange;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: 5px;
+}
+/* BUTTON:      SUBMIT DEGREES BUTTON */
+#centralAngleSubmitButton {
+  width: 7rem;
+  height: 4.32rem;
+  background-color: black;
+  border: 1px bisque solid;
+  font-size: 1.2rem;
+  color: orange;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;;
+  margin-right: 15px;
+  font-family: 'Kalam';
+}
+#radiusSubmitButton:hover {
+  width: 7rem;
+  height: 4.32rem;
+  background-color: orange;
+  border: 2px black solid;
+  outline: 1px bisque solid;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  font-family: 'Kalam';
+}
+
+/* TEXT-OUTPUT FIELD:      FOR ARC LENGTH ANSWER */
+#demo2 {
+  font-size: 2rem;
+  color: black;
+  width: 7.5rem;
+  height: 3.7rem;
+  background-color: bisque;
+  border: 1px black solid;
+  outline: 0.5px orange solid;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+#footer {
+  font-size: 0.8rem;
+  font-family: 'Caveat', cursive, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
