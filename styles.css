@@ -50,17 +50,15 @@ li {
   outline: 2px black solid;
   padding: 15px;
   text-shadow: 2px 2px 2px black;
-  width: 30%;
+  width: 40%;
   height: auto;
   text-align: left;
-  margin-left: 34%;
-  margin-right: 34%;
-  
-
+  margin-left: 30%;
+  margin-right: 30%;
 }
 /* INPUT TEXT-BOX:   ENTER THE RADIUS */
 #myRadius {
-  width: 4rem;
+  width: 10%;
   height: 2.47rem;
   background-color: black;
   border: 1px bisque solid;
@@ -121,7 +119,7 @@ li {
 
 /* INPUT TEXT-BOX:   ENTER THE CENTRAL ANGLE'S DEGREES */
 #myCentralAngle, #myDiameterTwo {
-  width: 4rem;
+  width: 10%;
   height: 2.47rem;
   background-color: black;
   border: 1px bisque solid;
@@ -167,7 +165,6 @@ li {
   margin-left: 20px;
   font-family: 'Kalam';
 }
-
 /* TEXT-OUTPUT FIELD:      FOR ARC LENGTH ANSWER */
 #demo2 {
   font-size: 2rem;
@@ -180,6 +177,12 @@ li {
   overflow: hidden;
   text-align: center;
   padding: 5px;
+}
+iframe {
+    margin: 15px 33% 15px 33%;
+    border: 1px black solid;
+    outline: 0.5px orange solid;
+
 }
 #footer {
   font-size: 0.8rem;
